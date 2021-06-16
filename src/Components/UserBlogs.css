@@ -1,0 +1,21 @@
+.userBlogs button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    display: inline-block;
+    margin-top:  -10%;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 480px) {
+
+    .userBlogs {
+      padding: 10px 20px;
+      margin: 20px 0;
+      width: 100px;
+      border-radius: 15px;
+      background-clip: white;
+      box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    }
+  }

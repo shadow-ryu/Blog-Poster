@@ -1,0 +1,43 @@
+.loginPage {
+    display: grid;
+    align-items: center;
+    place-items: center;
+    height: 100vh;
+}
+
+.loginPage>div>img {
+    object-fit: contain;
+    height: 150px;
+    max-width: 200px;
+}
+
+.loginPage>div {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.loginLogo{
+    align-items: center;
+
+}
+.loginLogo p{
+    color: #9999ff                                                                                                                           ;
+    font-weight: 800;
+}
+.loginPage>button {
+    width: 200px;
+    display: flex;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+}
+
+.loginPage>button:hover {
+    background-color: white;
+    color: #2e81f4;
+}
+.loginPage > button img{
+    padding: 5px;
+    
+ width: 24px;
+}

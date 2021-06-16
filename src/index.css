@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media screen and (max-width: 480px) {
+
+	body{
+    min-width: fit-content;
+    max-width: 300px;
+  }
+}
