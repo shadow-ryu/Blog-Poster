@@ -22,20 +22,6 @@
     margin: 10px;
 }
 
-.header__input {
-    display: flex;
-    align-items: center;
-    background-color: #eff2f5;
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 33px;
-}
-
-.header__input>input {
-    border: none;
-    background-color: transparent;
-    outline-width: 0;
-}
 
 .header__center {
     display: flex;
